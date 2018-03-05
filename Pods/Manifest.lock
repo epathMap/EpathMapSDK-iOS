@@ -1,0 +1,35 @@
+PODS:
+  - Bolts/Tasks (1.9.0)
+  - Bugly (2.4.8)
+  - EpathmapSDK (0.1.0)
+  - Mixpanel (3.1.9)
+  - Parse (1.14.4):
+    - Bolts/Tasks (~> 1.8)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SVProgressHUD (2.1.2)
+  - WechatOpenSDK (1.8.1)
+
+DEPENDENCIES:
+  - Bugly (~> 2.4.8)
+  - EpathmapSDK
+  - Mixpanel (~> 3.1.9)
+  - Parse (~> 1.14.4)
+  - SDWebImage (~> 3.8.2)
+  - SVProgressHUD (~> 2.1.2)
+  - WechatOpenSDK
+
+SPEC CHECKSUMS:
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  Bugly: da3c02408c14838d498429320545a8e439392978
+  EpathmapSDK: 3caef136add9a595307eeb28ab5055e4c3aec3f7
+  Mixpanel: 57923411aec1a1c7926efbb158f0bbd4460803fa
+  Parse: b0aa91d2c435e53d4a9af26e741e014c9b35c42e
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  WechatOpenSDK: 491d965d79335070328571d3e79f714549e79a5e
+
+PODFILE CHECKSUM: 6c08229a6dfc0882ec07beaad6f573973eaeae02
+
+COCOAPODS: 1.4.0

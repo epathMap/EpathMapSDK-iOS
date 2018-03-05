@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5799289C204CE94800B7B602 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799289B204CE94800B7B602 /* AppDelegate.m */; };
+		5799289F204CE94800B7B602 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5799289E204CE94800B7B602 /* ViewController.m */; };
+		579928A4204CE94800B7B602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579928A3204CE94800B7B602 /* Assets.xcassets */; };
+		579928AA204CE94800B7B602 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 579928A9204CE94800B7B602 /* main.m */; };
+		579928B6204CF39800B7B602 /* EpathLocationShareHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 579928B5204CF39800B7B602 /* EpathLocationShareHandle.m */; };
+		579928B9204D0B5200B7B602 /* EpLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 579928B8204D0B5200B7B602 /* EpLocationViewController.m */; };
+		E94825F306C78661DB34EEE1 /* libPods-EpathmapDemo-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E59AF002585C1E49C84B102C /* libPods-EpathmapDemo-iOS.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		531E3314E5F6B1A1EF42FAC9 /* Pods-EpathmapDemo-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpathmapDemo-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EpathmapDemo-iOS/Pods-EpathmapDemo-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		57992897204CE94800B7B602 /* EpathmapDemo-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EpathmapDemo-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5799289A204CE94800B7B602 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5799289B204CE94800B7B602 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5799289D204CE94800B7B602 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5799289E204CE94800B7B602 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		579928A3204CE94800B7B602 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		579928A8204CE94800B7B602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		579928A9204CE94800B7B602 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		579928B0204CEA5900B7B602 /* EpathApiKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EpathApiKey.h; sourceTree = "<group>"; };
+		579928B4204CF39800B7B602 /* EpathLocationShareHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EpathLocationShareHandle.h; sourceTree = "<group>"; };
+		579928B5204CF39800B7B602 /* EpathLocationShareHandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EpathLocationShareHandle.m; sourceTree = "<group>"; };
+		579928B7204D0B5200B7B602 /* EpLocationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EpLocationViewController.h; sourceTree = "<group>"; };
+		579928B8204D0B5200B7B602 /* EpLocationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EpLocationViewController.m; sourceTree = "<group>"; };
+		B5913DB0AC813E119794AF39 /* Pods-EpathmapDemo-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EpathmapDemo-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-EpathmapDemo-iOS/Pods-EpathmapDemo-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		E59AF002585C1E49C84B102C /* libPods-EpathmapDemo-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EpathmapDemo-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57992894204CE94800B7B602 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E94825F306C78661DB34EEE1 /* libPods-EpathmapDemo-iOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5799288E204CE94800B7B602 = {
+			isa = PBXGroup;
+			children = (
+				57992899204CE94800B7B602 /* EpathmapDemo-iOS */,
+				57992898204CE94800B7B602 /* Products */,
+				B9C893A98DDA70005DA66124 /* Pods */,
+				D1B35C785D99BB1369A49456 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57992898204CE94800B7B602 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57992897204CE94800B7B602 /* EpathmapDemo-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57992899204CE94800B7B602 /* EpathmapDemo-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				579928B0204CEA5900B7B602 /* EpathApiKey.h */,
+				5799289A204CE94800B7B602 /* AppDelegate.h */,
+				5799289B204CE94800B7B602 /* AppDelegate.m */,
+				5799289D204CE94800B7B602 /* ViewController.h */,
+				5799289E204CE94800B7B602 /* ViewController.m */,
+				579928B7204D0B5200B7B602 /* EpLocationViewController.h */,
+				579928B8204D0B5200B7B602 /* EpLocationViewController.m */,
+				579928B4204CF39800B7B602 /* EpathLocationShareHandle.h */,
+				579928B5204CF39800B7B602 /* EpathLocationShareHandle.m */,
+				579928A3204CE94800B7B602 /* Assets.xcassets */,
+				579928A8204CE94800B7B602 /* Info.plist */,
+				579928A9204CE94800B7B602 /* main.m */,
+			);
+			path = "EpathmapDemo-iOS";
+			sourceTree = "<group>";
+		};
+		B9C893A98DDA70005DA66124 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				531E3314E5F6B1A1EF42FAC9 /* Pods-EpathmapDemo-iOS.debug.xcconfig */,
+				B5913DB0AC813E119794AF39 /* Pods-EpathmapDemo-iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D1B35C785D99BB1369A49456 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E59AF002585C1E49C84B102C /* libPods-EpathmapDemo-iOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57992896204CE94800B7B602 /* EpathmapDemo-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 579928AD204CE94800B7B602 /* Build configuration list for PBXNativeTarget "EpathmapDemo-iOS" */;
+			buildPhases = (
+				3314606E6E45FD13C4D175EA /* [CP] Check Pods Manifest.lock */,
+				57992893204CE94800B7B602 /* Sources */,
+				57992894204CE94800B7B602 /* Frameworks */,
+				57992895204CE94800B7B602 /* Resources */,
+				14C8145CEF62B29766B88C4B /* [CP] Embed Pods Frameworks */,
+				39B8CE3E7EDEC39308C735E1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EpathmapDemo-iOS";
+			productName = "EpathmapDemo-iOS";
+			productReference = 57992897204CE94800B7B602 /* EpathmapDemo-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5799288F204CE94800B7B602 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "王高峰";
+				TargetAttributes = {
+					57992896204CE94800B7B602 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 57992892204CE94800B7B602 /* Build configuration list for PBXProject "EpathmapDemo-iOS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5799288E204CE94800B7B602;
+			productRefGroup = 57992898204CE94800B7B602 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57992896204CE94800B7B602 /* EpathmapDemo-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57992895204CE94800B7B602 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579928A4204CE94800B7B602 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14C8145CEF62B29766B88C4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EpathmapDemo-iOS/Pods-EpathmapDemo-iOS-frameworks.sh",
+				"${PODS_ROOT}/EpathmapSDK/EpathmapSDK/EpathmapSDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EpathmapSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EpathmapDemo-iOS/Pods-EpathmapDemo-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3314606E6E45FD13C4D175EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EpathmapDemo-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39B8CE3E7EDEC39308C735E1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EpathmapDemo-iOS/Pods-EpathmapDemo-iOS-resources.sh",
+				"${PODS_ROOT}/EpathmapSDK/EpathmapSDK.xcassets",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPArrowLeft.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPArrowLeft@2x.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPArrowRight.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPArrowRight@2x.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPCheckmark.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPCheckmark@2x.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPCloseButton.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPCloseButton@2x.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPCloseButton@3x.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPDismissKeyboard.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPDismissKeyboard@2x.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPLogo.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/MPLogo@2x.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/Images/placeholder-image.png",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/MPTakeoverNotificationViewController~ipad.xib",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/MPTakeoverNotificationViewController~iphonelandscape.xib",
+				"${PODS_ROOT}/Mixpanel/Mixpanel/MPTakeoverNotificationViewController~iphoneportrait.xib",
+				"${PODS_ROOT}/Parse/Parse/Resources/en.lproj",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EpathmapSDK.xcassets",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPArrowLeft.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPArrowLeft@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPArrowRight.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPArrowRight@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCheckmark.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCheckmark@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCloseButton.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCloseButton@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPCloseButton@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPDismissKeyboard.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPDismissKeyboard@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPLogo.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPLogo@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/placeholder-image.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPTakeoverNotificationViewController~ipad.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPTakeoverNotificationViewController~iphonelandscape.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MPTakeoverNotificationViewController~iphoneportrait.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EpathmapDemo-iOS/Pods-EpathmapDemo-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57992893204CE94800B7B602 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579928B6204CF39800B7B602 /* EpathLocationShareHandle.m in Sources */,
+				579928B9204D0B5200B7B602 /* EpLocationViewController.m in Sources */,
+				5799289F204CE94800B7B602 /* ViewController.m in Sources */,
+				579928AA204CE94800B7B602 /* main.m in Sources */,
+				5799289C204CE94800B7B602 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		579928AB204CE94800B7B602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		579928AC204CE94800B7B602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		579928AE204CE94800B7B602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 531E3314E5F6B1A1EF42FAC9 /* Pods-EpathmapDemo-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = RDED3FBHWB;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "EpathmapDemo-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.epath.navi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "35d6e6a9-f023-4355-9ad8-248fac99db46";
+				PROVISIONING_PROFILE_SPECIFIER = epathdev;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		579928AF204CE94800B7B602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5913DB0AC813E119794AF39 /* Pods-EpathmapDemo-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = RDED3FBHWB;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "EpathmapDemo-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.epath.navi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "35d6e6a9-f023-4355-9ad8-248fac99db46";
+				PROVISIONING_PROFILE_SPECIFIER = epathdev;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57992892204CE94800B7B602 /* Build configuration list for PBXProject "EpathmapDemo-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				579928AB204CE94800B7B602 /* Debug */,
+				579928AC204CE94800B7B602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		579928AD204CE94800B7B602 /* Build configuration list for PBXNativeTarget "EpathmapDemo-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				579928AE204CE94800B7B602 /* Debug */,
+				579928AF204CE94800B7B602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5799288F204CE94800B7B602 /* Project object */;
+}

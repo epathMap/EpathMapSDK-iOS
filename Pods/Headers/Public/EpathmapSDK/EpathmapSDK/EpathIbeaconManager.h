@@ -1,0 +1,1 @@
+../../../../EpathmapSDK/EpathmapSDK/EpathmapSDK.framework/Headers/EpathIbeaconManager.h
