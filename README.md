@@ -74,13 +74,13 @@ NSLog(@"在建筑物内");
 //检测位置共享口令是否存在
 [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(epathReceiveShareInfo:) name:IpsReceiveShareInfoNotification object:nil];
    [[EpathmapServices sharedInstance] application:application didFinishLaunchingWithOptions:launchOptions];
-   ```
+```
    2、在applicationWillEnterForeground里添加
-   ```objective-c
+```objective-c
    [[EpathmapServices sharedInstance] applicationWillEnterForeground:application];
-   ```
+```
    3、通知响应处理
-   ```objective-c
+```objective-c
    - (void)epathReceiveShareInfo:(NSNotification *)noti {
    if (noti.object == nil || ![noti.object isKindOfClass:[UIView class]]) {
    return;
@@ -92,31 +92,31 @@ NSLog(@"在建筑物内");
    [viewJoin performSelector:@selector(showInView:) withObject:[UIApplication sharedApplication].keyWindow];
    });
    }
-   ```
+```
    
    ## 使用微信分享SDK实现（SDK1.1.6开始使用）
    1、开发者可在自己的工程中接入微信SDK并完成register
-   ```objective-c
+```objective-c
    //例如在didFinishLaunchingWithOptions实现register
    [WXApi registerApp:wxAppID];
-   ```
+```
    2、将获取到的scheme配置到自己的工程中
-   < img alt="IpsmapSDK" src="http://parse-epath.oss-cn-hangzhou.aliyuncs.com/%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3%E5%9B%BE%E7%89%87/ios%E9%85%8D%E7%BD%AE.png">
-
-   
+```
+   <img alt="EpathmapSDK" src="http://parse-epath.oss-cn-hangzhou.aliyuncs.com/%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3%E5%9B%BE%E7%89%87/ios%E9%85%8D%E7%BD%AE.png">
+```
    3、在每个EpathMapViewController创建完之后加上locationShareDelegate处理分享按钮点击的回调
-   ```objective-c
+```objective-c
    //设置需要分享的平台
    [EpathShareConfig showSharePlatforms:@[@(IpsShareTypeWeChat), @(IpsShareTypeQQ), @(IpsShareTypeSMS)]];
    
    EpathMapViewController *vc = [[EpathMapViewController alloc] initWithMapId:(NSString *)MapId];
    vc.locationShareDelegate = [EpathLocationShareHandle sharedInstance];
    [self.navigationController pushViewController:vc animated:YES];
-   ```
+```
    4、分享按钮点击的回调处理可以用demo中的EpathLocationShareHandle也可以自己写
    
    5、点击分享链接App的处理在Appdelegate中的handleOpenURL方法加处理事件,delegate 需要支持EpathLocationShareProtocol协议
-   ```objective-c
+```objective-c
    - (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
    if ([url.scheme isEqualToString:wxAppID]) {
    return [WXApi handleOpenURL:url delegate:self];
@@ -124,13 +124,13 @@ NSLog(@"在建筑物内");
    return [[EpathmapServices sharedInstance] application:application openURL:url delegate:[EpathLocationShareHandle sharedInstance]];
    return YES;
    }
-   ```
+```
    
    6、为了方便位置共享可以默认填写用户昵称，可在登录成功或者切换用户等获取到用户信息后传递用户信息
-   ```objective-c
+```objective-c
    EpathUserInfo *userInfo = [EpathUserInfo new];
    userInfo.name = @"张三";
    userInfo.phoneNumber = @"13888888888";
    [EpathmapServices sharedInstance].userInfo = userInfo;
-   ```
+```
    
