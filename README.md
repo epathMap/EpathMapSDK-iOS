@@ -102,7 +102,7 @@ NSLog(@"在建筑物内");
    ```
    2、将获取到的scheme配置到自己的工程中
    
-   <img alt="EpathmapSDK-iOS" src="Readme.asset/scheme.png">
+   http://parse-epath.oss-cn-hangzhou.aliyuncs.com/%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3%E5%9B%BE%E7%89%87/ios%E9%85%8D%E7%BD%AE.png
    
    3、在每个EpathMapViewController创建完之后加上locationShareDelegate处理分享按钮点击的回调
    ```objective-c
