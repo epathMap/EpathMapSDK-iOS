@@ -65,6 +65,7 @@
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
+      "filename" : "Default.jpg",
       "extent" : "full-screen",
       "scale" : "1x"
     },
