@@ -1,11 +1,9 @@
-# EpathmapSDK-iOS
+# EpathmapSDK
 
-EpathmapSDK-iOS 是一套基于 iOS 8.0 及以上版本的室内地图应用程序开发接口，供开发者在自己的iOS应用中加入室内地图相关的功能，包括：地图显示（多楼层、多栋楼）、室内导航、模拟导航、语音播报等功能。
+EpathmapSDK 是一套基于 iOS 8.0 及以上版本的室内地图应用程序开发接口，供开发者在自己的iOS应用中加入室内地图相关的功能，包括：地图显示（多楼层、多栋楼）、室内导航、模拟导航、语音播报等功能。
 
 ## 获取AppKey
-请填写
-**[申请表](申请表.xlsx链接)**
-给dev@epathMap.com邮件联系获取AppKey、mapId、scheme（分享用）
+给service@e-path.cn邮件联系获取AppKey、mapId、scheme（分享用）
 
 ## 使用CocoaPods部署
 在Podfile中使用命令如下：
@@ -104,7 +102,7 @@ NSLog(@"在建筑物内");
    ```
    2、将获取到的scheme配置到自己的工程中
    
-   <img alt="EpathmapSDK" src="Readme.asset/scheme.png">
+   <img alt="EpathmapSDK-iOS" src="Readme.asset/scheme.png">
    
    3、在每个EpathMapViewController创建完之后加上locationShareDelegate处理分享按钮点击的回调
    ```objective-c
